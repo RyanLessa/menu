@@ -53,3 +53,13 @@ html, body {
 #menu a:hover {
     background: rgba(255, 255, 255, 0.18);
 }
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
