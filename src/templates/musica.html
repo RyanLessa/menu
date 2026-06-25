@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 <body>
+    <style>
+        #musicaTocando {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
     <div id="tela">
         <div id="conteudoPrincipal">
             <div id="menu">
@@ -17,13 +25,24 @@
             </div>
 
             <h1 style="margin-left: 5px">Sessão de músicas</h1>
-            <ul>
-                <li>Música 1</li>
-                <li>Música 2</li>
-                <li>Música 3</li>
-                <li>Música 4</li>
-                <li>Música 5</li>
-            </ul>
+            
+            <div id="musicaTocando">
+                <div class="circulo">←</div>
+
+                <div class="card">
+                    <h3>Nome da música</h3>
+                    <p>Informações sobre a música</p>
+                </div>
+
+                <div class="circulo">→</div>
+            </div>
+
+            <div id="proximasMusicas" style="margin-left: 5px;">
+                <h4>Próximas a serem tocadas</h4>
+                <p>Passo bem solto</p>
+                <p>Rap do Minecraft</p>
+                <p>Smells Like Teen Spirit</p>
+            </div>
         </div>
     </div>
 </body>
