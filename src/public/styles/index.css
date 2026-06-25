@@ -54,6 +54,117 @@ html, body {
     background: rgba(255, 255, 255, 0.18);
 }
 
+#searchBox {
+    margin: 20px;
+    padding: 14px 16px;
+    background: #f7faff;
+    border: 1px solid #dbe6ff;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 12px 30px rgba(77, 121, 255, 0.08);
+}
+
+.searchIcon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e9efff;
+    color: #4d79ff;
+    font-size: 18px;
+}
+
+#buscar {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #1f2b49;
+}
+
+#buscar::placeholder {
+    color: #8b97c2;
+}
+
+#buscar:focus {
+    outline: none;
+}
+
+#homeSection {
+    padding: 20px;
+}
+
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.subtitle {
+    margin: 0 0 8px;
+    color: #6c7a9a;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+#homeSection h1 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.1;
+    color: #17203b;
+}
+
+.homeBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: #e0ecff;
+    color: #1a4ad6;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.homeText {
+    margin: 0 0 24px;
+    color: #56617e;
+    line-height: 1.7;
+}
+
+.homeCards {
+    display: grid;
+    gap: 14px;
+}
+
+.homeCard {
+    background: #f7faff;
+    border: 1px solid #dbe6ff;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 12px 30px rgba(77, 121, 255, 0.08);
+}
+
+.homeCard h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #1f2b49;
+}
+
+.homeCard p {
+    margin: 0;
+    color: #677294;
+    line-height: 1.6;
+}
+
 .card {
     background: #ffffff;
     border-radius: 16px;

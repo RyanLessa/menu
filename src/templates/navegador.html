@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 <body>
+    <style>
+        #menuSuperior {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+
+        #direita {
+            display: flex;
+            gap: 2px;
+        }
+    </style>
+
     <div id="tela">
         <div id="conteudoPrincipal">
             <div id="menu">
@@ -16,7 +29,21 @@
                 <a href="/musica">Música</a>
             </div>
 
-            <h1>Navegador</h1>
+            <div id="menuSuperior">
+                <div id="esquerda">
+                    <div class="circulo">🏠</div>
+                </div>
+
+                <div id="direita">
+                    <div class="circulo">😛</div>
+                    <div class="circulo">|6|</div>
+                </div>
+            </div>
+
+            <div id="searchBox">
+                <span class="searchIcon">🔍</span>
+                <input type="text" placeholder="Buscar" id="buscar">
+            </div>
         </div>
     </div>
 </body>
